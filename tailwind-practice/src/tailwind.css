@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+    @apply ml-20 my-20 bg-green-300 p-3 rounded-full hover:bg-yellow-200 
+  hover:transition-colors focus:ring-2 ring-offset-1 ring-red-300
+}
+.boxcol{
+     @apply h-[274px] bg-[linear-gradient(149deg,#192247_0%,#1c1628_45%,#230f18_100%)]
+     text-white rounded-2xl
+}
+.RJ{
+     @apply  text-[24px] font-semibold p-5 
+}
+.RJ2{
+     @apply   px-5 
+}
+.line{
+  @apply items-center mt-3 h-[80px] w-[100%] bg-[#363535] hover:bg-[#525151] 
+  duration-1000 text-white text-[24px] font-[13px] p-4 flex justify-between
+}
+.tp{
+  @apply text-white text-[70px]
+}
+.at{
+  @apply  text-[14px] text-white/70 underline p-1 mt-2
+}
+
